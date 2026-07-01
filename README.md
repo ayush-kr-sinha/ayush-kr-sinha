@@ -17,4 +17,4 @@ Here are some ideas to get you started:
 <br>
 I’m currently learning c++
 <br>
-You can read me through ayushkrsinha7@gmail.com
+You can read me through mail: ayushkrsinha7@gmail.com
