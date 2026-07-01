@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<br>
+I’m currently learning c++
+<br>
+You can read me through ayushkrsinha7@gmail.com
