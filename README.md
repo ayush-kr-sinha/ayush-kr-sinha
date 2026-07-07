@@ -24,10 +24,10 @@ Next:
 ## 💻 Projects
 
 ### Card Design
-A responsive card component built using HTML and CSS.
+A card component built using HTML and CSS.
 
 ### Layout Design
-A responsive webpage layout using Flexbox and CSS.
+A webpage layout using HTML and CSS.
 
 More projects coming soon...
 
