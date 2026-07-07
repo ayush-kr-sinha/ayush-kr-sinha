@@ -15,6 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <br>
-I’m currently learning c++
+I’m currently learning Web Devlopment.
+<br>
+Current Progress -- Learning CSS
 <br>
 You can read me through mail: ayushkrsinha7@gmail.com
