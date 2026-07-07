@@ -51,7 +51,7 @@ HTML • CSS • JavaScript • Git • GitHub
 
 ## 📫 Contact
 
-📧 your-email@example.com
+  ayushkrsinha7@gmail.com
 
 ---
 
