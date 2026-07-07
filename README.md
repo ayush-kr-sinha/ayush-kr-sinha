@@ -1,22 +1,58 @@
-## Hi there 👋
+# Hi 👋, I'm Ayush Kumar
 
-<!--
-**ayush-kr-sinha/ayush-kr-sinha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Aspiring Full Stack Web Developer from India 🇮🇳
 
-Here are some ideas to get you started:
+I'm currently learning Web Development and building projects to strengthen my frontend and backend skills. My goal is to become a skilled software engineer by consistently creating real-world projects.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<br>
-I’m currently learning Web Devlopment.
-<br>
-Current Progress -- Learning CSS
-<br>
-You can read me through mail: ayushkrsinha7@gmail.com
+---
+
+## Currently Learning
+
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
+
+Next:
+- React
+- Node.js
+- Express
+- MongoDB
+
+---
+
+## 💻 Projects
+
+### Card Design
+A card component built using HTML and CSS.
+
+### Layout Design
+A webpage layout using HTML and CSS.
+
+More projects coming soon...
+
+---
+
+## 🎯 Goals for 2026
+
+- Build 30+ web development projects
+- Learn React and Node.js
+- Master Git & GitHub
+- Contribute to Open Source
+- Create a professional portfolio website
+
+---
+
+## Tech Stack
+
+HTML • CSS • JavaScript • Git • GitHub
+
+---
+
+## 📫 Contact
+
+  ayushkrsinha7@gmail.com
+
+---
+
+Thanks for visiting my profile!
