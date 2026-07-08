@@ -1,4 +1,4 @@
-# Hi 👋, I'm Ayush Kumar
+# Hi 👋, I'm Ayush Sinha
 
 ### Aspiring Full Stack Web Developer from India 🇮🇳
 
