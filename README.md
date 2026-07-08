@@ -29,6 +29,9 @@ A card component built using HTML and CSS.
 ### Layout Design
 A webpage layout using HTML and CSS.
 
+### Nav Bar 
+Areal website Nav bar replica.
+
 More projects coming soon...
 
 ---
