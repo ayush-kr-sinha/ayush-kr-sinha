@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+        }
+
+        .top {
+            background-color: rgb(255, 208, 0);
+            display: flex;
+            justify-content: center;
+            padding: 13px 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .info {
+            margin-left: 5px;
+            margin-right: 15px;
+            padding: 1px 7px;
+            border-radius: 50%;
+            border: 1px solid black;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        div a:link {
+            color: black;
+            font-weight: bold;
+
+        }
+
+        div a:hover {
+            color: red;
+        }
+
+        .box {
+            padding-left: 10px;
+
+            margin: 5px;
+            /* margin-left: 50px;
+            margin-right: 50px; */
+
+            /* padding-top: 4px;
+            padding-bottom: 4px; */
+        }
+
+        .top2 {
+            background-color: white;
+            display: flex;
+            border-radius: 6px;
+            border: 1px solid rgb(221, 221, 221);
+            background-color: #f6f6f6;
+            /* margin: 20px 50px; */
+            align-items: center;
+        }
+
+        .image {
+            width: 155px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+        }
+
+        ul li {
+            list-style: none;
+            margin: 0px 10px;
+        }
+
+        .top3 {
+            background-color: rgb(255, 208, 0);
+            padding: 8px 20px;
+            border-radius: 4px;
+        }
+
+        .top4 {
+            margin: 0px 20px;
+        }
+
+        .search {
+            margin-right: 20px;
+        }
+
+        li a:link {
+            color: #2e2e2e;
+            font-weight: lighter;
+            text-decoration: none;
+
+        }
+
+        li a:hover {
+            color: #2e2e2e56;
+        }
+
+        header {
+
+            position: sticky;
+            top: 0;
+            z-index: 100;
+
+        }
+
+        .back {
+            background-color: white;
+            padding: 20px;
+
+
+        }
+
+        .grrid {
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+
+            gap: 20px;
+            padding: 50px;
+
+        }
+
+        .grrid-item {
+            background-color: #F2F0EC;
+            /* width: 1fr; */
+            padding: 20px;
+            height: 150px;
+            border-radius: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+
+        }
+
+        .item1 {
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .item2 {
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .download-button {
+            background-color: #ffd741;
+            color: #2e2e2e;
+            padding: 10px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+
+        }
+
+        span a:link {
+            color: #2e2e2e;
+            text-decoration: none;
+        }
+
+        span a:hover {
+            color: #2e2e2e;
+        }
+
+        span a:hover {
+            background-color: #eec83e;
+        }
+
+        .item3 {
+            font-size: 10px;
+            margin-top: 10px;
+        }
+
+        .item4 {
+            font-size: 8px;
+        }
+
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .main-heading {
+            font-size: 48px;
+            color: #222222;
+            font-weight: 500;
+            margin-bottom: 20px;
+            margin: 43px;
+        }
+
+        .main-text {
+            width: 440px;
+            line-height: 1.3em;
+            /* display: flex;
+            justify-content: center;
+            flex-wrap: wrap; */
+            font-weight: 300;
+            color: #808080;
+            text-align: center;
+        }
+
+        .windows {
+            transform: translateX(10px);
+            transform: translateY(17px);
+        }
+
+        @media screen and (max-width: 768px) {
+            .grrid {
+                grid-template-columns: 1fr;
+                padding: 20px;
+
+            }
+
+            .top2 {
+                flex-wrap: wrap;
+            }
+
+            ul {
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                flex-grow: 0;
+                width: 100%;
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            UE Core & Enterprise Subscriptions: Get 10% Off on your second year
+            <div class="info">i</div>
+            <div><a class="Buy" href="/README.md" class="Buy">Buy Now→</a></div>
+
+        </div>
+        <div class="back">
+            <div class="top2">
+                <div class="box">
+                    <img class="image" src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-logo.svg"
+                        alt="logo">
+                </div>
+                <ul>
+                    <li><a class="list" href="/README.md">Products</a></li>
+                    <li><a class="list" href="/README.md">Buy</a></li>
+                    <li><a class="list" href="/README.md">Renew</a></li>
+                    <li><a class="list" href="/README.md">sopport</a></li>
+                    <li><a class="list" href="/README.md">Learn</a></li>
+                    <li><a class="list" href="/README.md">Company</a></li>
+                </ul>
+                <div class="top3">Download</div>
+                <div class="top4">🌏︎ English</div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="main">
+        <div class="main-heading">
+            Download UltraEdit for Windows <svg class="windows" width="60px" height="60px"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                <path
+                    d="M96 96L310.6 96L310.6 310.6L96 310.6L96 96zM329.4 96L544 96L544 310.6L329.4 310.6L329.4 96zM96 329.4L310.6 329.4L310.6 544L96 544L96 329.4zM329.4 329.4L544 329.4L544 544L329.4 544L329.4 329.4z" />
+            </svg>
+        </div>
+        <div class="main-text">
+            Download and try UltraEdit before you buy it! This download includes the full Windows version of the text
+            editor.
+        </div>
+
+    </div>
+    <div class="grrid">
+        <div class="grrid-item">
+            <h3>English</h3>
+            <div class="item2">Includes all languages
+            </div>
+            <span><a class="download-button" href="Download 64-bit.txt">Download 64-bit</a></span>
+            <div class="item3">SHA256</div>
+            <div class="item4">687E4D569E05292E91955A92B73813AFE563348D187FA331154280B2CA4695E7</div>
+        </div>
+        <div class="grrid-item">
+            <h3>Deutsch</h3>
+            <div class="item2">German</div>
+            <span><a class="download-button" href="Download 64-bit.txt">Download 64-bit</a></span>
+            <div class="item3">SHA256</div>
+            <div class="item4">687E4D569E05292E91955A92B73813AFE563348D187FA331154280B2CA4695E7</div>
+        </div>
+        <div class="grrid-item">
+            <h3>Italiano</h3>
+            <div class="item2">Italian</div>
+            <span><a class="download-button" href="Download 64-bit.txt">Download 64-bit</a></span>
+            <div class="item3">SHA256</div>
+            <div class="item4">687E4D569E05292E91955A92B73813AFE563348D187FA331154280B2CA4695E7</div>
+        </div>
+        <div class="grrid-item">
+            <h3>Español</h3>
+            <div class="item2">Spanish</div>
+            <span><a class="download-button" href="Download 64-bit.txt">Download 64-bit</a></span>
+            <div class="item3">SHA256</div>
+            <div class="item4">687E4D569E05292E91955A92B73813AFE563348D187FA331154280B2CA4695E7</div>
+        </div>
+        <div class="grrid-item">
+            <h3>français</h3>
+            <div class="item2">French</div>
+            <span><a class="download-button" href="Download 64-bit.txt">Download 64-bit</a></span>
+            <div class="item3">SHA256</div>
+            <div class="item4">687E4D569E05292E91955A92B73813AFE563348D187FA331154280B2CA4695E7</div>
+        </div>
+        <div class="grrid-item">
+            <h3>Português brasileiro</h3>
+            <div class="item2">Brazilian Portuguese</div>
+            <span><a class="download-button" href="Download 64-bit.txt">Download 64-bit</a></span>
+            <div class="item3">SHA256</div>
+            <div class="item4">687E4D569E05292E91955A92B73813AFE563348D187FA331154280B2CA4695E7</div>
+        </div>
+        <div class="grrid-item">
+            <h3>日本</h3>
+            <div class="item2">Japanese</div>
+            <span><a class="download-button" href="Download 64-bit.txt">Download 64-bit</a></span>
+            <div class="item3">SHA256</div>
+            <div class="item4">687E4D569E05292E91955A92B73813AFE563348D187FA331154280B2CA4695E7</div>
+        </div>
+        <div class="grrid-item">
+            <h3>한국어</h3>
+            <div class="item2">Korean</div>
+            <span><a class="download-button" href="Download 64-bit.txt">Download 64-bit</a></span>
+            <div class="item3">SHA256</div>
+            <div class="item4">687E4D569E05292E91955A92B73813AFE563348D187FA331154280B2CA4695E7</div>
+        </div>
+        <div class="grrid-item">
+            <h3>华语</h3>
+            <div class="item2">Chinese</div>
+            <span><a class="download-button" href="Download 64-bit.txt">Download 64-bit</a></span>
+            <div class="item3">SHA256</div>
+            <div class="item4">687E4D569E05292E91955A92B73813AFE563348D187FA331154280B2CA4695E7</div>
+        </div>
+        <div class="grrid-item">
+
+            <h3>華語</h3>
+            <div class="item2">Traditional Chinese</div>
+            <span><a class="download-button" href="Download 64-bit.txt">Download 64-bit</a></span>
+            <div class="item3">SHA256</div>
+            <div class="item4">687E4D569E05292E91955A92B73813AFE563348D187FA331154280B2CA4695E7</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
