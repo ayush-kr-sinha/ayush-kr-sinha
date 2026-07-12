@@ -1,4 +1,4 @@
-# Hi 👋, I'm Ayush Kumar
+# Hi 👋, I'm Ayush Sinha
 
 ### Aspiring Full Stack Web Developer from India 🇮🇳
 
@@ -29,8 +29,8 @@ A card component built using HTML and CSS.
 ### Layout Design
 A webpage layout using HTML and CSS.
 
-### Nav Bar 
-Areal website Nav bar replica.
+### Web Page design 
+A real website Layout replica.
 
 More projects coming soon...
 
