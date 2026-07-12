@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+.gift-button {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-image: linear-gradient(90deg, rgb(92, 50, 191) 0%, rgb(92, 50, 191) 20%, rgb(229, 9, 20) 100%);
+    z-index: 1000;
+    /* position: relative; */
+}
+
+.button-text {
+    color: rgb(255, 255, 255);
+    font-weight: 450;
+
+}
+
+.button-text-extra {
+    font-weight: 650;
+    font-size: larger;
+}
+
+.boss {
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    width: 100%;
+    height: 804px;
+    background-image: url(assets/NETFLIXIMG1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 100%;
+    transform: translateY(-50PX);
+    z-index: 1;
+}
+
+.logo-section {
+    margin: 74px 150px;
+    display: flex;
+}
+
+.logo-img {
+    width: 145px;
+}
+
+.lang {
+    display: flex;
+}
+
+.button-logo {
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
+    height: 30px;
+
+}
+
+.chinese-svg {
+    width: 18px;
+    padding-left: 8px;
+}
+
+.english-button-text {
+    padding-left: 6px;
+}
+
+.down-arrow {
+    width: 15px;
+    padding: 0px 6px;
+}
+.english-button {
+    color: rgb(235, 234, 234);
+    display: flex;
+    border: 0.5px solid rgba(211, 211, 211, 0.63);
+    border-radius: 4px;
+    padding: 2px 8px 6px 4px;
+    /* padding-right: 30px; */
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.459);
+    cursor: default;
+}
+.signin:hover{
+    background: #ca0811;
+    color: #ececec;
+}
+.signin {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 17px 2px 17px;
+    cursor: pointer;
+}
+
+.main-content {
+    color: rgb(254 255 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 125px 0px;
+}
+
+h1 {
+    width: 478px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 125%;
+}
+.heading-text{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.main-content{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.main-content2{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+.email-section {
+    display: flex;
+    width: 600px;
+    gap: 8px;
+}
+
+.input-email,
+.day-try-button {
+    flex: 1;
+    height: 56px;
+    box-sizing: border-box;
+}
+
+.input-email {
+    width: 354px;
+    background: rgba(22, 22, 22, .72);
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 4px;
+    padding: 0 16px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.input-email::placeholder {
+    color: #b3b3b3;
+    font-weight: 600;
+}
+.day-try-button:hover{
+    background: #ca0811;
+    color: #ececec;
+
+}
+.day-try-button {
+    background: #E50914;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.main-content3{
+    color: #b3b3b3;
+    font-weight: 500;
+    transform: translateY(-6px)
+}
+.trending{
+    width:80%;
+    margin:50px auto;
+    color:white;
+}
+
+.trending h2{
+    font-size:24px;
+    margin-bottom:25px;
+}
+
+.movie-wrapper{
+    position:relative;
+    display:flex;
+    align-items:center;
+    margin: 20px;
+}
+
+.movie-slider{
+    display:flex;
+    gap: 47px;
+    overflow: visible;
+    scroll-behavior:smooth;
+}
+
+.movie-slider::-webkit-scrollbar{
+    display:none;
+}
+
+.movie-card{
+    position:relative;
+    flex:0 0 auto;
+}
+
+.movie-card img{
+    width:180px;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.movie-card:hover img{
+    transform:scale(1.05);
+}
+.number{
+    position:absolute;
+    left:-35px;
+    bottom:18px;
+    font-size:100px;
+    font-weight:900;
+    color:black;
+    -webkit-text-stroke:2px white;
+    line-height:1;
+    z-index:2;
+}
+.arrow-right{
+    width: 25px;
+    height:120px;
+    border:none;
+    border-radius:6px;
+    background:#181818;
+    color:white;
+    font-size:24px;
+    margin-left: 10px;
+    cursor:pointer;
+    font-weight: 100;
+}
+.arrow-right:hover{
+    background: #444444;
+}
+.arrow-right svg{
+    width: 28px;
+    height: 32px;
+    transform: translateX(-2px);
+}
+.movie-card{
+    transition:.3s;
+}
+
+.movie-card:hover{
+    transform:scale(1.03);
+}
+.more-reason h2{
+    margin-bottom: 16px;
+}
+.more-reason{
+    color: white;
+    margin: 0px 143px;
+}
+.reasons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 80px;
+}
+.reason h3{
+    font-size: x-large;
+}
+.reason-text{
+    font-size: 16.5px;
+    font-weight: 500;
+    color: #a8abb1;
+}
+.image{
+    background-image: url(assets/image.png);
+}
+.image2{
+    background-image: url(assets/image2.png);
+}
+.image3{
+    background-image: url(assets/image3.png);
+}
+.image4{
+    background-image: url(assets/image4.png);
+}
+.reason{
+    padding: 20px 15px;
+    width: 273px;
+    height: 310px;
+    border-radius: 20px;
+    /* background-color: rgb(49, 0, 128); */
+    box-sizing: border-box;
+    background-size: cover;
+}
+.reason-text{
+    margin-top: 10px;
+}
+.FAQ{
+    margin: 0px 135px 0px 143px;
+}
+.FAQ h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.FAQ-text:hover{
+    background-color: #464646;
+}
+.FAQ-text{
+    position: relative;
+    justify-content: space-between;
+    margin: 8px 0px;
+    background-color: #303030;
+    padding: 26px 24px;
+    font-size: x-large;
+    font-weight: 400;
+    display: flex;
+    cursor: pointer;
+    transition:background-color 0.30s ease;
+}
+.plus{
+    position:absolute;
+    right:24px;
+    top:50%;
+    transform:translateY(-60%);
+
+    font-size:77px;
+    line-height:1;
+    font-weight: 100;
+}
+.FAQs{
+    color: #fff;
+    list-style: none;
+}
+.footer-main-content{
+    margin: 70px 0px;
+}
+.footer-day-try-button{
+    flex:0 0 290px;
+}
+.footer-email-section{
+    width: 780px;
+}
+.footer-main-content3{
+    margin-left: 136px;
+    margin-right: 135px;
+    line-height: 20px;
+}
+/* .footer{
+    color: #b3b3b3;
+} */
+.num a:hover, .num :active, .num a, .num a::after{
+    color: #b3b3b3;
+}
+.contact-number{
+    color: #b3b3b3;
+    margin-left: 136px;
+}
+.num{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.all-links{
+    color: #b3b3b3;
+    display: flex;
+    margin-left: 136px;
+    margin-top: 40px;
+    gap: 150px;
+}
+.ul{
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ul li:active{
+    color: #E50914;
+}
+.ul li{
+    margin-bottom: 10px;
+}
+.footer-english-button{
+    background-color: rgb(40 40 40 / 46%);
+}
+.footer-button-logo{
+    margin: 50px 20px 0px 136px;
+}
+.netflix-india{
+    color: #b3b3b3;
+    margin-left: 136px;
+    font-size: small;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.last-line{
+    margin-left: 136px;
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
