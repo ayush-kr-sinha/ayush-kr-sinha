@@ -32,6 +32,9 @@ A webpage layout using HTML and CSS.
 ### Web Page design 
 A real website Layout replica.
 
+### Netflix Homepage Layout Design 
+A real Netflix Layout replica using HTML and CSS only.
+
 More projects coming soon...
 
 ---
