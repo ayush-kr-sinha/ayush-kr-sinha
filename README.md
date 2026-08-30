@@ -1,64 +1,144 @@
 # Hi 👋, I'm Ayush Sinha
 
-### Aspiring Full Stack Web Developer from India 🇮🇳
+### 💻 CSE Student | Aspiring Full Stack Developer | Building Projects & Learning Every Day 🇮🇳
 
-I'm currently learning Web Development and building projects to strengthen my frontend and backend skills. My goal is to become a skilled software engineer by consistently creating real-world projects.
+I'm a Computer Science student from India who enjoys building websites, experimenting with JavaScript, and learning how real-world software is developed.
 
----
-
-## Currently Learning
-
-- HTML5
-- CSS3
-- JavaScript
-- Git & GitHub
-
-Next:
-- React
-- Node.js
-- Express
-- MongoDB
+Currently focused on strengthening my fundamentals in **Web Development, C++, Git/GitHub, and Backend Development**.
 
 ---
 
-## 💻 Projects
+## 🚀 About Me
 
-### Card Design
-A card component built using HTML and CSS.
-
-### Layout Design
-A webpage layout using HTML and CSS.
-
-### Web Page design 
-A real website Layout replica.
-
-### Netflix Homepage Layout Design Fully Responsive
-A real Netflix Layout replica using HTML and CSS only.
-
-More projects coming soon...
+- 🎓 Computer Science Engineering Student
+- 💻 Currently learning **Full Stack Web Development**
+- 🌱 Improving my skills through practical projects
+- 🧠 Currently strengthening my **C++ and programming fundamentals**
+- 🔨 Building projects with HTML, CSS and JavaScript
+- 📚 Learning **React, Node.js, Express & MongoDB**
+- 🎯 Goal: Become a strong **Full Stack Software Developer**
+- 🇮🇳 Based in India
 
 ---
 
-## 🎯 Goals for 2026
+## 🛠️ Tech Stack
 
-- Build 30+ web development projects
-- Learn React and Node.js
-- Master Git & GitHub
-- Contribute to Open Source
-- Create a professional portfolio website
+### Currently Working With
 
----
+<p align="left">
 
-## Tech Stack
+<img src="https://skillicons.dev/icons?i=html,css,js,cpp,git,github" />
 
-HTML • CSS • JavaScript • Git • GitHub
+</p>
 
----
+### Currently Learning
 
-## 📫 Contact
+<p align="left">
 
-  ayushkrsinha7@gmail.com
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb" />
+
+</p>
 
 ---
 
-Thanks for visiting my profile!
+# 📂 My Projects
+
+Here are some of the projects I've built while learning and experimenting with web development.
+
+---
+
+## 🎵 SoundEro
+
+**A responsive web-based music player inspired by modern music streaming platforms.**
+
+### Features
+
+- 🎧 Music player interface
+- 📱 Responsive design
+- 🌙 Dark-themed UI
+- 🎵 Playlist functionality
+- ▶️ Play / Pause controls
+- ⏭️ Song navigation
+- ⚡ Built using vanilla web technologies
+
+### Tech Used
+
+`HTML5` `CSS3` `JavaScript`
+
+🔗 **Repository:**  
+[View SoundEro](https://github.com/ayush-kr-sinha/SoundEro)
+
+---
+
+## 🔐 Password Generator
+
+**A simple password generator that creates random passwords and allows users to copy them to the clipboard.**
+
+### Features
+
+- 🔑 Random password generation
+- 📋 Copy to clipboard
+- ⚡ Simple and lightweight interface
+- 🎨 Responsive UI
+
+### Tech Used
+
+`HTML` `CSS` `JavaScript`
+
+🔗 **Repository:**  
+[View Password Generator](https://github.com/ayush-kr-sinha/Password-Generator)
+
+---
+
+## ✅ To-Do List
+
+**A simple JavaScript-based task management application.**
+
+### Features
+
+- ➕ Add tasks
+- 🗑️ Remove tasks
+- ✅ Manage completed tasks
+- ⚡ Interactive UI
+- 💻 Built with vanilla JavaScript
+
+### Tech Used
+
+`HTML` `CSS` `JavaScript`
+
+🔗 **Repository:**  
+[View To-Do List](https://github.com/ayush-kr-sinha/To-Do-List)
+
+---
+
+## 🎨 Web & UI Experiments
+
+I also use smaller repositories to practice:
+
+- HTML layouts
+- CSS styling
+- Responsive design
+- UI recreation
+- JavaScript interactions
+- Frontend fundamentals
+
+These projects help me understand how real websites are structured before moving into larger full-stack applications.
+
+---
+
+# 📈 My Learning Journey
+
+```text
+HTML
+  ↓
+CSS
+  ↓
+JavaScript
+  ↓
+Git & GitHub
+  ↓
+Node.js + Express
+  ↓
+MongoDB
+  ↓
+continue....
